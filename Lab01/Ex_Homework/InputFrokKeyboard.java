@@ -1,8 +1,8 @@
 //Phan Thanh Thang
 //20225927
-//6.2
+//6.2 
 package Lab01.Ex_Homework;
-import java.util.Scanner;
+import java.util.Scanner; 
 public class InputFrokKeyboard {
     public static void main(String[] args){
         Scanner keyboard = new Scanner(System.in);

@@ -17,4 +17,4 @@ public class Count {
         System.out.println("Tich cua hai so la: " +(a*b));
         System.out.println("Thuong cua hai so la: " +(a/b));
     }
-}
+} 

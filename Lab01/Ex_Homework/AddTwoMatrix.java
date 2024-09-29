@@ -2,7 +2,7 @@
 //20225927
 //6.6
 package Lab01.Ex_Homework; 
-import java.util.Scanner;
+import java.util.Scanner; 
 public class AddTwoMatrix {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

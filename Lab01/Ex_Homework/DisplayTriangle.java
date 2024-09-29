@@ -2,7 +2,7 @@
 //20225927
 //6.3
 
-package Lab01.Ex_Homework;
+package Lab01.Ex_Homework; 
 
 import java.util.Scanner;
 

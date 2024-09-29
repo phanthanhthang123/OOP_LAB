@@ -3,7 +3,7 @@
 //6.4
 
 package Lab01.Ex_Homework;
-
+ 
 import java.util.Scanner;
 
 public class NumberOfDayInMonth {

@@ -15,4 +15,4 @@ public class ShowTwoNumbers{
         JOptionPane.showMessageDialog(null, strNotification, "Show two number", JOptionPane.INFORMATION_MESSAGE);
         System.exit(0);
     }
-}
+} 
