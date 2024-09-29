@@ -7,9 +7,9 @@ public class AddTwoMatrix {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Nhâp số hàng của ma trận: ");
+        System.out.print("Nhap so hang cua ma tran: ");
         int row = sc.nextInt();
-        System.out.print("Nhập số cột của ma trận: ");
+        System.out.print("Nhap so cot cua ma tran: ");
         int col = sc.nextInt();
 
         //Khai báo ma trận số thực
@@ -18,13 +18,13 @@ public class AddTwoMatrix {
         double[][] matAns = new double[row][col]; //Ma trận kết quả
 
         //Nhập các phần tử trong các ma trận
-        System.out.println("\nHãy nhập các phần tử trong ma trận A: ");
+        System.out.println("\nHay nhap cac phan tu trong ma tran A: ");
         for (int i=0;i<row;i++){
             for (int j=0;j<col;j++){
                 matA[i][j] = sc.nextDouble();
             }
         }
-        System.out.println("\nHãy nhập các phần tử trong ma trận B: ");
+        System.out.println("\nHay nhap cac phan tu trong ma tran B: ");
         for (int i=0;i<row;i++){
             for (int j=0;j<col;j++){
                 matB[i][j] = sc.nextDouble();
@@ -40,7 +40,7 @@ public class AddTwoMatrix {
 
         //In kết quả
         System.out.println("\n________________________________");
-        System.out.println("Kết quả matA + amtB là: ");
+        System.out.println("Ket qua matA + amtB la: ");
         for (int i=0;i<row;i++){
             for (int j=0;j<col;j++){
                 System.out.print(matAns[i][j]+" ");
