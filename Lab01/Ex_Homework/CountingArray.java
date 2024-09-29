@@ -45,7 +45,7 @@ public class CountingArray {
 
         Arrays.sort(array);
 
-        // print(array);
+        print(array);
         double temp = avg(array);
         double sum = sum(array);
 
