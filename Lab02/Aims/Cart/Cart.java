@@ -11,8 +11,7 @@ public class Cart {
     //Mảng lưu các đĩa DVD được thêm vào giỏ hàng
     private DigitalVideoDisc itemsOrdered[] = new DigitalVideoDisc[MAX_NUMBERS_ORDERED];
 
-    private int qtyOrdered;     //Số lượng đĩa DVD hiện có trong giỏ hàng
-
+    private int qtyOrdered;//Số lượng đĩa DVD hiện có trong giỏ hàng
 
     //Hàm thêm đĩa DVD vào giỏ hàng
     public int addDigitalVideoDisc(DigitalVideoDisc disc) {
@@ -26,7 +25,25 @@ public class Cart {
             return 1;
         }
     }
-    //Ham them dia vào gio hang theo List voi so luong tuy y
+    //Hàm thêm đĩa DVD vào giỏ hàng voi dau vao la 1 mang
+    // public int addDigitalVideoDisc(DigitalVideoDisc[] dvdArray) {
+    //     int addCount = 0;
+    //     for(DigitalVideoDisc disc : dvdArray){
+    //         if(qtyOrdered == MAX_NUMBERS_ORDERED){
+    //             System.out.println("The Cart is almost full. Can't add more discs");
+    //             break;
+    //         }else{
+    //             itemsOrdered[qtyOrdered] = disc;
+    //             qtyOrdered++;
+    //             System.out.println("The DVD" + '\"' + disc.getTitle() + '\"' + "has been added!");
+    //             addCount++;
+    //         }
+    //     }
+    //     return addCount;
+    // }
+
+
+    // Ham them dia vào gio hang theo List voi so luong tuy y
     public int addDigitalVideoDisc(DigitalVideoDisc... dvdArray) {
         int addCount = 0;
         for (DigitalVideoDisc disc : dvdArray) {
@@ -59,7 +76,6 @@ public class Cart {
             return 2; //Tra ve so dia DVD da them duoc
         }
     }
-
 
     //Hàm xoá đĩa (Khi cấu trúc dữ liệu của đĩa DVD là 1 mảng cấu trúc)
     public int removeDigitalVideoDisc(DigitalVideoDisc disc) {

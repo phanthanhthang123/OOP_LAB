@@ -9,8 +9,6 @@ import java.util.LinkedList;
 import Lab02.Aims.Disc.DigitalVideoDisc;
 public class Store {
     private LinkedList<DigitalVideoDisc> itemsInStore = new LinkedList<DigitalVideoDisc>();
-
-
     private boolean checkDVD(DigitalVideoDisc disc) {
         for (DigitalVideoDisc digitalVideoDisc : itemsInStore) {
             if (digitalVideoDisc.equals(disc)) {
