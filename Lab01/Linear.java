@@ -27,6 +27,7 @@ public class Linear {
             double x = -b / a;
             System.out.println("Nghiệm của phương trình là: x = " + x);
         }
+        sc.close();
     }
 
 
@@ -59,6 +60,7 @@ public class Linear {
             System.out.println("x = " + x);
             System.out.println("y = " + y);
         }
+        sc.close();
     }
     public static void main(String[] args){
         LinearEquation();

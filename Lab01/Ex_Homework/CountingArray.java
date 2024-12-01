@@ -51,5 +51,6 @@ public class CountingArray {
 
         System.out.printf("GIa tri tong cua mang: %.2f\n",sum);
         System.out.printf("GIa tri trung binh cua mang: %.2f",temp);
+        input.close();
     }
 }

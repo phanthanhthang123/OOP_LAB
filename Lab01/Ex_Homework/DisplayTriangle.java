@@ -20,5 +20,6 @@ public class DisplayTriangle {
             }
             System.out.print("\n");
         }
+        input.close();
     }
 }

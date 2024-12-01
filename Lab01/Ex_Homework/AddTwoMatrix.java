@@ -47,5 +47,6 @@ public class AddTwoMatrix {
             }
             System.out.println();   //Xuống dòng
         }
+        sc.close();
     }
 }

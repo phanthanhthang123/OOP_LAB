@@ -2,7 +2,6 @@
 package Lab02.hust.soict.hedspi.garbage;
 import java.util.Random;
 import static java.lang.System.currentTimeMillis;
-import static java.lang.System.out;
 
 public class ConcatenationInLoops {
       public static void main(String[] args) {
@@ -18,5 +17,6 @@ public class ConcatenationInLoops {
             for (int i= 0;i<65536;i++) sb.append(r.nextInt(2));
             s+= sb.toString();
             System.out.println(currentTimeMillis() - start);
+            System.out.println(s);
       }
 }

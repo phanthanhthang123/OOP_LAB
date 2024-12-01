@@ -18,5 +18,6 @@ public class InputFrokKeyboard {
         //Xuat thong tin
         System.out.println("\n\n____________________________");
         System.out.println("Mr/Mrs " + name + "\nAge: "+ age +"\nYour height is: " +height+ " m");
+        keyboard.close();
     }
 }

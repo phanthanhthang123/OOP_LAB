@@ -99,5 +99,6 @@ public class NumberOfDayInMonth {
                 check = 0;
             }
         }
+        input.close();
     }
 }
